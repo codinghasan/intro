@@ -29,3 +29,14 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 <br>
 
 <image src="https://www.talkwalker.com/images/2020/blog-headers/image-analysis.png" width = "256px" height = "256px">
+  
+<br>
+
+## Usage on your code:
+
+```
+const Data = require('your-package');
+const data = new Data({
+  yourApi: 'your-path'
+});
+```
